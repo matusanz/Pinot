@@ -62,7 +62,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 - Special thanks to [Mom] for the inspiration and guidance.
 ```
-
-This README file can be used as a starting point. You may need to modify it further, adding more specific details, sections like 'Known Issues', 'Roadmap', etc., and links to other documents, like `CONTRIBUTING.md` or `LICENSE.md`, as your project grows and evolves.
-
-Don’t forget to replace placeholders like `<repository-url>` and `<project-directory>` with the actual information, and add any additional setup steps or environment-specific variables that may be necessary for running your project locally.
