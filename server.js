@@ -1,9 +1,21 @@
 const express = require("express");
 
+const dotenv = require("dotenv").config();
+
 const app = express();
 
-const port = 5000;
+const port = process.env.PORT || 3000;
 
-app.listen (port, () => {
-  console.log (‘server runing on port ${port}‘);
+app.get("/api/contacts",(req,res) => {
+  res.send("Get All Contacts");
 });
+
+app.get("/api/contacts",(req,res) => {
+  res.json({message: "Get All Contacts"});
+});
+
+app.listen(port, () => {
+  console.log(`Sever started on port ${port}`);
+});
+
+
