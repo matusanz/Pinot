@@ -11,7 +11,7 @@ app.get("/api/contacts",(req,res) => {
 });
 
 app.get("/api/contacts",(req,res) => {
-  res.json({message: "Get All Contacts"});
+  res.status(200).json({message: "Get All Contacts"});
 });
 
 app.listen(port, () => {
